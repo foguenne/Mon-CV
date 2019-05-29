@@ -1,0 +1,58 @@
+@font-face{
+    font-family:'Questrial', sans-serif;
+    
+}
+
+@font-face{
+    font-family: MyNewFont;
+    src: url(CODE_Light.otf);
+}
+
+
+body{
+    border: 3px solid grey;
+    border-radius: 6px;
+    margin: 5%;
+    padding: 20px;
+    font-family:'Questrial', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+li{
+   list-style: none;
+    margin: 16px;
+}
+
+img{
+    box-shadow: 3px 3px 3px grey;
+}
+
+
+.formation  , .experiences , .langues , .hobbys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 , h2 {
+    font-family: MyNewFont;
+}
+
+h1{
+    background-color: aquamarine;
+    padding: 3px;
+    border-bottom: 5px solid grey;
+}
+
+
+h4{
+    margin-left: 50px;
+}
+
+
